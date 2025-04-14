@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "User1",
+      "email": "user1@gmail.com",
+      "password": "User@123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Iphone 12",
+      "description": "Iphone 12 is a smartphone that was tested with the iOS 14.1 operating system. This model weighs 5.78 ounces, has a 6.1 inch display, 12-megapixel main camera, and 12-megapixel selfie camera.",
+      "price": 799,
+      "image": "https://www.apple.com/v/iphone/home/ab/images/heroes/iphone-12/hero_static__d1v8x2j0g6i6_large.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Iphone 13",
+      "description": "Iphone 13 is a smartphone that was tested with the iOS 15.0 operating system. This model weighs 6.14 ounces, has a 6.1 inch display, 12-megapixel main camera, and 12-megapixel selfie camera.",
+      "price": 899,
+      "image": "https://www.apple.com/v/iphone/home/ab/images/heroes/iphone-13/hero_static__d1v8x2j0g6i6_large.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Iphone 14",
+      "description": "Iphone 14 is a smartphone that was tested with the iOS 16.0 operating system. This model weighs 6.07 ounces, has a 6.1 inch display, 12-megapixel main camera, and 12-megapixel selfie camera.",
+      "price": 999,
+      "image": "https://www.apple.com/v/iphone/home/ab/images/heroes/iphone-14/hero_static__d1v8x2j0g6i6_large.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Iphone 15",
+      "description": "Iphone 15 is a smartphone that was tested with the iOS 17.0 operating system. This model weighs 6.07 ounces, has a 6.1 inch display, 12-megapixel main camera, and 12-megapixel selfie camera.",
+      "price": 1099,
+      "image": "https://www.apple.com/v/iphone/home/ab/images/heroes/iphone-15/hero_static__d1v8x2j0g6i6_large.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Iphone 16",
+      "description": "Iphone 16 is a smartphone that was tested with the iOS 18.0 operating system. This model weighs 6.07 ounces, has a 6.1 inch display, 12-megapixel main camera, and 12-megapixel selfie camera.",
+      "price": 1199,
+      "image": "https://www.apple.com/v/iphone/home/ab/images/heroes/iphone-16/hero_static__d1v8x2j0g6i6_large.jpg"
+    }
+  ],
+  "carts": [
+    {
+      "id": "1",
+      "userId": "2",
+      "products": [
+        {
+          "productId": "1",
+          "quantity": 2
+        },
+        {
+          "productId": "2",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
