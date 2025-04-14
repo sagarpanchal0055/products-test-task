@@ -198,7 +198,7 @@ export default function Layout() {
           </Search> */}
           <Box sx={{ flexGrow: 1 }} />
           {authCtx?.user?.role === "user" && (
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={0} color="primary">
               <LocalMallIcon />
             </Badge>
           )}

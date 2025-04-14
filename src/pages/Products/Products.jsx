@@ -42,13 +42,6 @@ export default function Products() {
         <Typography variant="h5" sx={{ mb: 2 }}>
           Products
         </Typography>
-
-        <Button
-          variant="contained"
-          onClick={() => navigate("/dashboard/user-new")}
-        >
-          Add user
-        </Button>
       </Stack>
 
       <ProductsTable rows={products} fetchProducts={fetchProducts} />
